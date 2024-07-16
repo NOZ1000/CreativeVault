@@ -1,0 +1,5 @@
+sudo docker build -t creative_vault_frontend_12000 frontend
+sudo docker build -t creative_vault_backend_12000 backend
+
+sudo docker run -p 12080:80 creative_vault_frontend_12000
+sudo docker run -p 12000:5000 creative_vault_backend_12000

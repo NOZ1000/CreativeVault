@@ -1,0 +1,1 @@
+nrzCTF{flag_fake}
